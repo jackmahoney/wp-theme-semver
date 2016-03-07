@@ -44,7 +44,7 @@ module.exports = function (filePath, releaseType) {
             str = str.replace(version, incrementedVersion);
 
             //write the contents back to stylesheet
-            fs.writeFile(styleFile, str, function(err) {
+            fs.writeFile(filePath, str, function(err) {
                 if (err){
                     throw err;
                 }

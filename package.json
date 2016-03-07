@@ -2,6 +2,7 @@
   "name": "wp-theme-semver",
   "version": "0.0.1",
   "description": "For incrementing semver in style.css of Wordpress themes.",
+  "repository": "https://github.com/jackmahoney/wp-theme-semver",
   "main": "src/index.js",
   "scripts": {
     "test": "mocha"
